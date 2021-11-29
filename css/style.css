@@ -1,0 +1,157 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #7581a1;
+    line-height: 26px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    /* font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    color: #192b59;
+    text-transform: uppercase; */
+
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 800;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+.btn-free {
+    font-weight: 400;
+    background-color: #1085e4;
+    color: white;
+}
+
+.grid h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #192b59;
+}
+
+.grid h2 span {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 800;
+    display: block;
+}
+.grid-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+.btn-get {
+    color: white;
+    background-color: #1085e4;
+    font-size: 12px;
+    font-weight: 700;
+}
+.btn-learn {
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.grid-bottom {
+    color: #1085e4;
+}
+.grid-bottom span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+
+.page-subscribe h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    
+}
+.page-subscribe span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #00bffe;
+    display: block;
+}
+.page-subscribe p {
+    font-size: 18px;
+}
+.page-subscribe button {
+    font-weight: 700;
+    font-size: 14px;
+}
+.page-subscribe input {
+    font-size: 14px;
+}
+.page-software dt {
+    font-weight: 700;;
+}
+
+
+.page-stat h2 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+}
+.page-stat ul {
+    color: #2d94e8;
+    font-size: 16px;
+    font-weight: 800;
+}
+.page-stat ul span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    display: block;
+}
+
+
+.available-now {
+    font-weight: 700;
+    color: #c4d2dd;
+}
+
+
+.page-landing button {
+    color: white;
+    background-color: #1085e4;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.page-control button {
+    color: white;
+    background-color: #1085e4;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.page-screan span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+}

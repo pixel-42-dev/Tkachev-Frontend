@@ -28,12 +28,78 @@ h2 {
     font-weight: 800;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.btn-primaty {
+    background-color: #1085e4;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+.btn-primaty:hover {
+    color: #1085e4;
+    background-color: #fff;
 }
 .btn-free {
     font-weight: 400;
-    background-color: #1085e4;
-    color: white;
+    letter-spacing: 2.3px;
+    padding: 25px 60px;
 }
+.btn-secondary {
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    color: #7e8bae;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+.btn-secondary:hover {
+    background-color: #fff;
+
+}
+.btn-group a+a {
+    margin-left: 19px;
+}
+.btn-info {
+    color: #8085b1;
+    background: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+}
+.btn-info:hover {
+    border: 1px solid black;
+    color: black;
+}
+.btn-sub {
+    letter-spacing: 4px;
+    padding: 18px 48px;
+}
+.btn-controll{
+    padding: 24px 72px;
+}
+.btn-plan {
+    padding: 24px 68px;
+}
+.btn-form {
+    letter-spacing: 2.1px;
+    padding: 24px 56px;
+}
+
 
 .grid h2 {
     font-weight: 700;
@@ -56,12 +122,6 @@ h2 {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
-}
-.btn-get {
-    color: white;
-    background-color: #1085e4;
-    font-size: 12px;
-    font-weight: 700;
 }
 .btn-learn {
     color: #7e8bae;

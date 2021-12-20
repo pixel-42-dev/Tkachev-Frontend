@@ -18,7 +18,8 @@ h1 {
     font-weight: 600;
     color: #192b59;
     max-width: 540px;
-    line-height: 45px;
+    letter-spacing: -2.5px;
+    line-height: 1.2;
     letter-spacing: 0;
 }
 h2 {
@@ -28,12 +29,12 @@ h2 {
 }
 .nav {
     font-size: 12px;
-    font-weight: 800;
+    font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     display: flex;
 }
 .nav > li {
@@ -88,13 +89,20 @@ h2 {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    padding: 25px 45px;
-    border-radius: 40px;
-    letter-spacing: 3.5px;
+    padding: 20px 60px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
 }
 .btn-info:hover {
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #94b4cc;
+    color: #fff;
+    background-color: #94b4cc;
+}
+.page-plan .btn-primaty {
+    padding: 20px 60px;
+}
+.page-plan .btn-primaty:hover {
+    background: transparent;
 }
 .btn-sub {
     letter-spacing: 4px;
@@ -264,10 +272,24 @@ h2 {
     font-weight: 800;
     color: #1085e4;
 }
+.box-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.box-price-item {
+    background-color: #f5faff;
+    flex-basis: 32%;
+    padding: 90px 0 96px 0;
+    position: relative;
+}
 .box-price-item h3{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     color: #000958;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 .box-price-item h3 span {
     font-size: 18px;
@@ -277,12 +299,48 @@ h2 {
 .box-price-item h3 span:first-child {
     color: #000958;
 }
+.box-price-item.active h3 span:first-child {
+    color: #fff;
+}
+.box-price-item.active h3 {
+    color: #fff;
+}
+.box-price-item h3 span:last-child {
+    color: #7b8ab2;
+}
+.box-price-item.active {
+    background-color: #152b59;
+    color: #fff;
+}
 .box-price-item > p {
     font-size: 16px;
     color: #0084ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
-.box-price-item li {
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 34px;
+    margin-bottom: 60px;
     font-size: 14px;
+}
+.box-price-item ul>li {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.box-price-item::after {
+    content: "";
+    width: 58px;
+    height: 100%;
+    background-image: url(../img/im-bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-price-item.active::after {
+    display: none;
 }
 .box-price-item a {
     font-size: 12px;
@@ -348,7 +406,7 @@ h2 {
 .footer p a {
     color: #1085e4;
 }
-.box {
+.wrap {
     max-width: 1140px;
     margin: 0 auto;    
 }
@@ -356,6 +414,7 @@ h2 {
 .list-stat {
     display: flex;
     list-style-type: none;
+    justify-content: space-around;
 }
 .list-stat > li {
     font-size: 12px;
@@ -363,20 +422,71 @@ h2 {
     color: #1085e4;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2.5px;;
 }
 .list-stat > li span {
+    display: block;
     font-size: 60px;
     font-weight: 700;
     color: #bacbdc;
-    letter-spacing: 2.5;
+    letter-spacing: 0px;
+    margin-bottom: 20px;    
     text-transform: uppercase;
 }
 .title-h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
     line-height: 1.2;
-    letter-spacing: 1px;
-    text-align: center;
+    letter-spacing: -1.5px;
 }
 .title h2 span {
-    letter-spacing: 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.page-stat .title-h2 {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* PAGE */
+
+.page-stat {
+    background-color: #edf6ff;
+    padding: 115px 0 95px 0;
+}
+.page-screan {
+    background-color: #edf6ff;
+    padding: 80px 0 0 0;
+}
+
+/* END PAGE */
+
+.page-screan {
+    text-align: center;
+}
+.screen {
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.page-screan .title-h2 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
+}
+.page-screan .title-h2 span {
+    font-size: 18px;
     margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+.page-plan {
+    text-align: center;
+}
+#bpi-first {
+    margin-bottom: 35px;
 }

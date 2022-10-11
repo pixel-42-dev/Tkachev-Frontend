@@ -356,11 +356,51 @@ h2 {
     right: 204px;
 }
 
-
+.page-software {
+    padding: 110px 0 155px 0;
+    background-image: url(../img/sloy1.png);
+    background-repeat: no-repeat;
+    background-position: 0 50px;
+}
 .page-software dt {
     font-weight: 700;;
 }
-
+.page-software-icon {
+    display: block;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 92px;
+    background-position: -25px 0;
+}
+.page-software title-h2 {
+    max-width: 770px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.page-software-list {
+    margin-top: 30px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.page-software-list dt {
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 10px;
+}
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+.page-software-flex > div {
+    flex-basis: 55%;
+}
 
 .page-stat h2 span {
     display: block;
